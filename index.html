@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add your custom CSS here */
+    </style>
+</head>
+<body>
+    <div class="container-fluid cont-top d-flex justify-content-center align-items-center min-vh-100 bg-dark">
+        <div class="row justify-content-center cont-cust">
+            <div class="col-md-12 col-lg-12 p-4 rounded glass-effect">
+                <h1 class="text-center text-white mb-4">Weather For You</h1>
+                <div class="form-group">
+                    <input type="text" id="cityInput" class="form-control" placeholder="Enter city name">
+                </div>
+                <button id="getWeatherBtn" class="btn btn-primary btn-block">Get Weather</button>
+                <div id="weatherDetails" class="mt-4 text-white">
+                    <!-- Weather details will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
